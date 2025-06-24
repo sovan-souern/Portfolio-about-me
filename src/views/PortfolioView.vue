@@ -1,3 +1,4 @@
+```vue
 <template>
   <section id="portfolio" class="py-20 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -27,9 +28,9 @@
 
       <!-- Portfolio Grid -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div v-for="project in filteredProjects" :key="project.id" class="group">
+        <div v-for="project in filteredProjects" :key="project.id" :data-project-id="project.id" class="group">
           <div class="bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-blue-300 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-2">
-            <div class="relative overflow-hidden">
+            <div class="relative">
               <!-- Project Image -->
               <div class="w-full h-48 relative">
                 <img 
@@ -96,6 +97,10 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+import SportImage from '@/assets/image/sport.jpg'
+import SystemImage from '@/assets/image/system.jpg'
+import WeatherImage from '@/assets/image/weather.jpg'
+import CodeImage from '@/assets/image/code.jpg'
 
 const portfolioCategories = ['All', 'Web', 'Mobile', 'Design', 'API']
 const selectedCategory = ref('All')
@@ -107,7 +112,7 @@ const projects = ref([
     category: 'Web',
     description: 'A dynamic website showcasing sports events and scores with interactive features.',
     technologies: ['Vue.js', 'Tailwind CSS', 'JavaScript'],
-    image: './src/assets/image/sport.jpg',
+    image: SportImage,
     liveUrl: 'http://sport-club-b8.netlify.app',
     githubUrl: 'https://github.com/sovan-souern/sport',
     imageError: false
@@ -117,8 +122,8 @@ const projects = ref([
     title: 'System Management Tool',
     category: 'Web',
     description: 'An online store with payment integration and admin dashboard.',
-    technologies: ['Python','Tkinter'],
-    image: './src/assets/image/system.jpg',
+    technologies: ['Python', 'Tkinter'],
+    image: SystemImage,
     liveUrl: '#',
     githubUrl: '',
     imageError: false
@@ -128,8 +133,8 @@ const projects = ref([
     title: 'Weather App',
     category: 'Mobile',
     description: 'A real-time chat application for iOS and Android.',
-    technologies: ['Javascript', 'HTML','CSS', 'Firebase'],
-    image: './src/assets/image/weather.jpg',
+    technologies: ['Javascript', 'HTML', 'CSS', 'Firebase'],
+    image: WeatherImage,
     liveUrl: 'https://weather-app-g16.netlify.app/page/home.html',
     githubUrl: 'https://github.com/sovan-souern/Weather-App-G16',
     imageError: false
@@ -162,7 +167,7 @@ const projects = ref([
     category: 'Web',
     description: 'A personal project focused on learning coding concepts and best practices.',
     technologies: ['HTML', 'CSS', 'Javascript', 'Bootstrap5'],
-    image: '../src/assets/image/code.jpg',
+    image: CodeImage,
     liveUrl: 'https://sovan-souern.github.io/codelearning/',
     githubUrl: 'https://github.com/sovan-souern/codelearning',
     imageError: false
@@ -179,11 +184,9 @@ const filteredProjects = computed(() => {
 const handleImageError = (event) => {
   const img = event.target
   const projectId = parseInt(img.closest('[data-project-id]')?.dataset.projectId)
-  if (projectId) {
-    const project = projects.value.find(p => p.id === projectId)
-    if (project) {
-      project.imageError = true
-    }
+  const project = projects.value.find(p => p.id === projectId)
+  if (project) {
+    project.imageError = true
   }
 }
 
@@ -192,7 +195,6 @@ const viewProject = (project) => {
     window.open(project.githubUrl, '_blank')
   } else {
     console.log('View project:', project.title)
-    // Add your view project logic here
   }
 }
 
@@ -201,7 +203,6 @@ const openLiveDemo = (project) => {
     window.open(project.liveUrl, '_blank')
   } else {
     console.log('Open live demo:', project.title)
-    // Add your live demo logic here
   }
 }
 
@@ -212,3 +213,4 @@ const scrollToSection = (sectionId) => {
   }
 }
 </script>
+```
