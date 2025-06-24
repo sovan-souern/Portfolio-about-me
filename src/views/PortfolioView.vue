@@ -162,7 +162,7 @@ const projects = ref([
     category: 'Web',
     description: 'A personal project focused on learning coding concepts and best practices.',
     technologies: ['HTML', 'CSS', 'Javascript', 'Bootstrap5'],
-    image: './src/assets/image/code.jpg',
+    image: '../src/assets/image/code.jpg',
     liveUrl: 'https://sovan-souern.github.io/codelearning/',
     githubUrl: 'https://github.com/sovan-souern/codelearning',
     imageError: false

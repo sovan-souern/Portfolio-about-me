@@ -339,16 +339,7 @@ const skills = [
     projects: ['Custom Themes', 'Component Libraries', 'Design Systems'],
     tools: ['VS Code', 'Sass CLI', 'Webpack', 'Gulp']
   },
-  // Development Tools
-  {
-    name: 'Git & GitHub',
-    category: 'Tools',
-    experience: '2+ years',
-    image: 'https://i.pinimg.com/736x/66/71/3a/66713a96b9b21dffd3a85a5d748a3171.jpg',
-    description: 'Version control system and code collaboration platform',
-    projects: ['All Projects', 'Open Source Contributions', 'Team Collaborations'],
-    tools: ['Git CLI', 'GitHub Desktop', 'VS Code Git', 'GitKraken']
-  }
+
 ]
 
 const filteredSkills = computed(() => {
