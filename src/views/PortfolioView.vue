@@ -102,14 +102,12 @@ import SystemImage from '@/assets/image/system.jpg'
 import WeatherImage from '@/assets/image/weather.jpg'
 import CodeImage from '@/assets/image/code.jpg'
 
-const portfolioCategories = ['All', 'Web', 'Mobile', 'Design', 'API']
 const selectedCategory = ref('All')
 
 const projects = ref([
   {
     id: 1,
     title: 'Sport Website',
-    category: 'Web',
     description: 'A dynamic website showcasing sports events and scores with interactive features.',
     technologies: ['Vue.js', 'Tailwind CSS', 'JavaScript'],
     image: SportImage,
@@ -120,7 +118,6 @@ const projects = ref([
   {
     id: 2,
     title: 'System Management Tool',
-    category: 'Web',
     description: 'An online store with payment integration and admin dashboard.',
     technologies: ['Python', 'Tkinter'],
     image: SystemImage,
@@ -131,7 +128,6 @@ const projects = ref([
   {
     id: 3,
     title: 'Weather App',
-    category: 'Mobile',
     description: 'A real-time chat application for iOS and Android.',
     technologies: ['Javascript', 'HTML', 'CSS', 'Firebase'],
     image: WeatherImage,
@@ -142,7 +138,6 @@ const projects = ref([
   {
     id: 4,
     title: 'Brand Identity Design',
-    category: 'Design',
     description: 'Complete brand identity package including logo, colors, and guidelines.',
     technologies: ['Figma', 'Adobe Illustrator', 'Photoshop'],
     image: 'https://img.freepik.com/free-vector/business-hand-drawn-e-commerce-landing-page_23-2149600513.jpg?semt=ais_hybrid&w=740',
@@ -153,7 +148,6 @@ const projects = ref([
   {
     id: 5,
     title: 'Deploying Website (AWS)',
-    category: 'API',
     description: 'A scalable RESTful API for a content management system.',
     technologies: ['AWS(EC2)', 'Docker', 'Node.js'],
     image: 'https://i.pinimg.com/736x/09/3f/6e/093f6ed3ff0b96f50686bd538383ad9c.jpg',
@@ -164,7 +158,6 @@ const projects = ref([
   {
     id: 6,
     title: 'Personal(Code Learning)',
-    category: 'Web',
     description: 'A personal project focused on learning coding concepts and best practices.',
     technologies: ['HTML', 'CSS', 'Javascript', 'Bootstrap5'],
     image: CodeImage,

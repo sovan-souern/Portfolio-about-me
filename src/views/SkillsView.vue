@@ -220,7 +220,7 @@ const selectedSkill = ref(null)
 const selectedToolCategory = ref('All')
 const selectedTool = ref(null)
 
-const skillCategories = ['All', 'Frontend', 'Backend', 'Database', 'Programming', 'Styling', 'Tools']
+const skillCategories = ['All', 'Frontend', 'Backend', 'Database', 'Programming', 'Styling']
 
 const skills = [
   // Frontend Technologies
