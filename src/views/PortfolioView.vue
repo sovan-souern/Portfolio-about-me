@@ -102,6 +102,7 @@ import SystemImage from '@/assets/image/system.jpg'
 import WeatherImage from '@/assets/image/weather.jpg'
 import CodeImage from '@/assets/image/code.jpg'
 import BandoskomarImage from '@/assets/image/bandoskoma.jpg'
+import PortfolioImage from '@/assets/image/portfolio.jpg'
 
 
 const selectedCategory = ref('All')
@@ -124,7 +125,7 @@ const projects = ref([
     technologies: ['Python', 'Tkinter','Git/GitHub'],
     image: SystemImage,
     liveUrl: '#',
-    githubUrl: '',
+    githubUrl: 'https://github.com/sovan-souern/Project-Python.git',
     imageError: false
   },
    {
@@ -182,10 +183,10 @@ const projects = ref([
     id: 8,
     title: 'Portfolio About Me',
     description: 'A dynamic website information about me and my portfolio with interactive features.',
-    technologies: ['WordPress','Vue JS', 'Tailwind CSS','Git/GitHub','Vercel'],
-    image: BandoskomarImage,
-    liveUrl: '',
-    githubUrl: '',
+    technologies: ['Vue JS', 'Tailwind CSS','Git/GitHub','Vercel'],
+    image: PortfolioImage,
+    liveUrl: 'portfolio-about-me-omega.vercel.app',
+    githubUrl: 'https://github.com/sovan-souern/Portfolio-about-me',
     imageError: false
   },
   

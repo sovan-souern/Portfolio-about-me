@@ -61,42 +61,42 @@ const services = [
     title: 'Web Development',
     description: 'Custom web applications built with modern technologies and best practices for optimal performance and user experience.',
     features: ['Responsive Design', 'Performance Optimization', 'SEO Friendly', 'Cross-browser Compatible', 'Modern Frameworks'],
-    price: 'From $2,500'
+    price: 'Negotiable'
   },
   {
     id: 2,
-    title: 'Mobile Development',
-    description: 'Native and cross-platform mobile applications for iOS and Android with seamless user experiences.',
-    features: ['iOS & Android', 'React Native', 'App Store Deployment', 'Push Notifications', 'Offline Support'],
-    price: 'From $3,500'
+    title: 'POS System Development',
+    description: 'Custom Point of Sale (POS) systems tailored to your business needs, with features like inventory management, sales tracking, and customer management.',
+    features: ['Inventory Management', 'Sales Tracking', 'Customer Management', 'Reporting & Analytics', 'Multi-platform Support'],
+    price: 'Negotiable'
   },
   {
     id: 3,
     title: 'E-Commerce Solutions',
     description: 'Complete online store development with payment integration, inventory management, and analytics.',
     features: ['Payment Integration', 'Inventory Management', 'Admin Dashboard', 'Analytics', 'Security'],
-    price: 'From $4,000'
+    price: 'Negotiable'
   },
   {
     id: 4,
     title: 'UI/UX Design',
     description: 'User-centered design for web and mobile applications that prioritize usability and aesthetics.',
     features: ['User Research', 'Wireframing', 'Prototyping', 'Design Systems', 'Usability Testing'],
-    price: 'From $1,500'
+    price: 'Negotiable'
   },
   {
     id: 5,
     title: 'API Development',
     description: 'RESTful APIs and backend services with robust architecture, security, and documentation.',
     features: ['Database Design', 'Authentication', 'Documentation', 'Testing', 'Scalability'],
-    price: 'From $2,000'
+    price: 'Negotiable'
   },
   {
     id: 6,
-    title: 'Consulting',
+    title: 'Quality Assurance',
     description: 'Technical consulting and code review services to improve your development processes and code quality.',
-    features: ['Architecture Review', 'Performance Audit', 'Best Practices', 'Team Training', 'Strategy Planning'],
-    price: 'From $150/hr'
+    features: ['Write Test Cases', 'Manual Testing', 'Performance Testing', 'Security Testing', 'Code Review','API Testing'],
+    price: 'Negotiable'
   }
 ]
 
