@@ -78,7 +78,7 @@ const experience = [
     company: '',
     period: '2025 - Present',
     description: 'Lead development of enterprise web applications, mentor junior developers, and architect scalable solutions using modern technologies. Responsible for code reviews, technical decisions, and project planning.',
-    technologies: ['Node.js', 'AWS', 'Deploy', 'MySQL', 'TypeScript']
+    technologies: ['Laravel','PHP','Node.js', 'AWS', 'Deploy', 'MySQL', 'TypeScript','Python','MysQL']
   },
   {
     id: 2,
@@ -86,7 +86,7 @@ const experience = [
     company: '',
     period: '2025 - Present',
     description: 'Developed responsive web applications and improved user experience across multiple client projects. Collaborated with designers and backend developers to deliver high-quality solutions.',
-    technologies: ['Vue.js', 'JavaScript', 'SASS', 'Firebase', 'Figma']
+    technologies: ['Vue.js','Tailwind CSS','Boostrap5','JavaScript', 'SASS', 'Firebase', 'Figma']
   },
   {
     id: 3,
@@ -94,7 +94,15 @@ const experience = [
     company: '',
     period: 'Apply for Internship',
     description: 'Built and maintained web applications while learning best practices in software development. Participated in agile development processes and contributed to open-source projects.',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL', 'Git']
+    technologies: ['Laravel','Python','PHP','OOP Typescript','VueJS','Node JS','HTML', 'CSS', 'JavaScript', 'Tailwind CSS','Boostrap5', 'MySQL', 'Git','WordPress','Figma', 'Firebase']
+  },
+  {
+    id: 4,
+    position: 'Data Analyst',
+    company: '',
+    period: '2 months',
+    description: 'Analyzes data to identify trends and insights that inform business decisions. Utilizes tools like Excel, Power BI.',
+    technologies: ['Power BI','Excel','Data Visualization', 'Data Cleaning', 'Python']
   }
 ]
 
