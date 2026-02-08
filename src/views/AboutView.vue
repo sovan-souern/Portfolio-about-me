@@ -27,7 +27,7 @@
               I'm a student passionate about web development, exploring this field through school projects. My journey began with curiosity about how websites are built, sparking my interest in coding and design.
             </p>
             <p>
-              I’m learning modern web technologies like React, Vue.js, HTML, and CSS through my coursework. I enjoy creating projects that are functional and aim to improve my skills with each assignment.
+              I’m learning modern web technologies like PHP, Laravel, Node JS, Tailwind CSS, Javascript, React, Vue.js, HTML, and CSS through my coursework. I enjoy creating projects that are functional and aim to improve my skills with each assignment.
             </p>
             <p>
               Outside of school, I love experimenting with new tools, working on personal coding projects, and learning from online resources to grow my knowledge.
