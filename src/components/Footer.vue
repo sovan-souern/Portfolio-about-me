@@ -33,7 +33,7 @@
         <div>
           <h4 class="text-lg font-semibold text-gray-900 mb-4">Contact</h4>
           <ul class="space-y-2 text-gray-600">
-            <li>sovan.souern@student.passerellesnumeriques.org</li>
+            <li>souernsovan7@gmail.com</li>
             <li>+855 86277461</li>
             <li>Phnom Penh, Cambodia</li>
           </ul>
