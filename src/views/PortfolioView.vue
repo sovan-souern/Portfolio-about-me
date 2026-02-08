@@ -101,70 +101,94 @@ import SportImage from '@/assets/image/sport.jpg'
 import SystemImage from '@/assets/image/system.jpg'
 import WeatherImage from '@/assets/image/weather.jpg'
 import CodeImage from '@/assets/image/code.jpg'
+import BandoskomarImage from '@/assets/image/bandoskoma.jpg'
+
 
 const selectedCategory = ref('All')
 
 const projects = ref([
-  {
+   {
     id: 1,
-    title: 'Sport Website',
-    description: 'A dynamic website showcasing sports events and scores with interactive features.',
-    technologies: ['Vue.js', 'Tailwind CSS', 'JavaScript'],
-    image: SportImage,
-    liveUrl: 'http://sport-club-b8.netlify.app',
-    githubUrl: 'https://github.com/sovan-souern/sport',
+    title: 'Bandoskomar Website',
+    description: 'THis project build for customer Organization.',
+    technologies: ['WordPress','Laravel','Vue Js','HTML', 'CSS', 'Javascript', 'Bootstrap5','Git/GitHub','Figma','PHP', 'MySQL', 'Vercel'],
+    image: BandoskomarImage,
+    liveUrl: 'https://www.bandoskomar.org/en/',
+    githubUrl: 'https://github.com/radytrainer/bandoskomar.git',
     imageError: false
   },
-  {
+   {
     id: 2,
     title: 'System Management Tool',
     description: 'An online store with payment integration and admin dashboard.',
-    technologies: ['Python', 'Tkinter'],
+    technologies: ['Python', 'Tkinter','Git/GitHub'],
     image: SystemImage,
     liveUrl: '#',
     githubUrl: '',
     imageError: false
   },
-  {
+   {
     id: 3,
+    title: 'Personal(Code Learning)',
+    description: 'A personal project focused on learning coding concepts and best practices.',
+    technologies: ['HTML', 'CSS', 'Javascript', 'Bootstrap5','Git/GitHub'],
+    image: CodeImage,
+    liveUrl: 'https://sovan-souern.github.io/codelearning/',
+    githubUrl: 'https://github.com/sovan-souern/codelearning',
+    imageError: false
+  },
+  {
+    id: 4,
     title: 'Weather App',
     description: 'A real-time chat application for iOS and Android.',
-    technologies: ['Javascript', 'HTML', 'CSS', 'Firebase'],
+    technologies: ['Javascript', 'HTML', 'CSS', 'Firebase','Git/GitHub'],
     image: WeatherImage,
     liveUrl: 'https://weather-app-g16.netlify.app/page/home.html',
     githubUrl: 'https://github.com/sovan-souern/Weather-App-G16',
     imageError: false
   },
   {
-    id: 4,
+    id: 5,
     title: 'Brand Identity Design',
     description: 'Complete brand identity package including logo, colors, and guidelines.',
-    technologies: ['Figma', 'Adobe Illustrator', 'Photoshop'],
+    technologies: ['Figma', 'PHP', 'Javascript','HTML', 'CSS', 'Bootstrap5', 'MySQL', 'OOP tyescript'],
     image: 'https://img.freepik.com/free-vector/business-hand-drawn-e-commerce-landing-page_23-2149600513.jpg?semt=ais_hybrid&w=740',
     liveUrl: '#',
     githubUrl: 'https://github.com/sovan-souern/VC1-G10',
     imageError: false
   },
   {
-    id: 5,
+    id: 6,
     title: 'Deploying Website (AWS)',
     description: 'A scalable RESTful API for a content management system.',
-    technologies: ['AWS(EC2)', 'Docker', 'Node.js'],
+    technologies: ['AWS(EC2)','MobaxTerm','WordPress'],
     image: 'https://i.pinimg.com/736x/09/3f/6e/093f6ed3ff0b96f50686bd538383ad9c.jpg',
     liveUrl: '#',
     githubUrl: '#',
     imageError: false
   },
+ 
   {
-    id: 6,
-    title: 'Personal(Code Learning)',
-    description: 'A personal project focused on learning coding concepts and best practices.',
-    technologies: ['HTML', 'CSS', 'Javascript', 'Bootstrap5'],
-    image: CodeImage,
-    liveUrl: 'https://sovan-souern.github.io/codelearning/',
-    githubUrl: 'https://github.com/sovan-souern/codelearning',
+    id: 7,
+    title: 'Sport Website',
+    description: 'A dynamic website showcasing sports events and scores with interactive features.',
+    technologies: ['HTML', 'CSS', 'SASS','Git/GitHub'],
+    image: SportImage,
+    liveUrl: 'http://sport-club-b8.netlify.app',
+    githubUrl: 'https://github.com/sovan-souern/sport',
     imageError: false
-  }
+  },
+   {
+    id: 8,
+    title: 'Portfolio About Me',
+    description: 'A dynamic website information about me and my portfolio with interactive features.',
+    technologies: ['WordPress','Vue JS', 'Tailwind CSS','Git/GitHub','Vercel'],
+    image: BandoskomarImage,
+    liveUrl: '',
+    githubUrl: '',
+    imageError: false
+  },
+  
 ])
 
 const filteredProjects = computed(() => {
