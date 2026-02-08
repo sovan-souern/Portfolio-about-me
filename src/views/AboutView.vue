@@ -103,7 +103,17 @@ const experience = [
     period: '2 months',
     description: 'Analyzes data to identify trends and insights that inform business decisions. Utilizes tools like Excel, Power BI.',
     technologies: ['Power BI','Excel','Data Visualization', 'Data Cleaning', 'Python']
+  },
+  //add more experience with internship in Transaction banking
+  {
+    id: 4,
+    position: 'Transaction Banking and Quality Assurance Intern',
+    company: '',
+    period: 'From 15 September 2025 to 15 March 2026',
+    description: 'Assisted in the development and testing of transaction banking applications, ensuring high-quality code and seamless user experience. Collaborated with cross-functional teams to identify and resolve issues, contributing to the successful deployment of banking solutions. and working closly Digital Backend and Frontend team to ensure the quality of the product.',
+    technologies: ['Postman','Excel','OutLook','Microsoft Teams','Word']
   }
+
 ]
 
 const scrollToSection = (sectionId) => {
