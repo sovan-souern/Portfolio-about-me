@@ -185,7 +185,7 @@ const projects = ref([
     description: 'A dynamic website information about me and my portfolio with interactive features.',
     technologies: ['Vue JS', 'Tailwind CSS','Git/GitHub','Vercel'],
     image: PortfolioImage,
-    liveUrl: 'https://portfolio-about-me-omega.vercel.app/',
+    liveUrl: 'https://portfolio-about-me-kappa.vercel.app/',
     githubUrl: 'https://github.com/sovan-souern/Portfolio-about-me',
     imageError: false
   },
