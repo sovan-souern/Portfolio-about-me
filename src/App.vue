@@ -10,6 +10,9 @@
 
     <!-- Footer -->
     <Footer />
+    
+    <!-- QR Code Floating Button -->
+    <QRCodeFloating />
   </div>
 </template>
 
@@ -17,6 +20,7 @@
 import Navbar from './components/Navbar.vue'
 import Footer from './components/Footer.vue'
 import HomeView from './views/HomeView.vue'
+import QRCodeFloating from './components/QRCodeFloating.vue' // Import QR component
 </script>
 
 <style scoped>
