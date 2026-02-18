@@ -112,7 +112,7 @@ const projects = ref([
     id: 1,
     title: 'Bandoskomar Website',
     description: 'THis project build for customer Organization.',
-    technologies: ['WordPress','Laravel','Vue Js','HTML', 'CSS', 'Javascript', 'Bootstrap5','Git/GitHub','Figma','PHP', 'MySQL', 'Vercel'],
+    technologies: ['WordPress','PHP','HTML','CSS','Git/Github','Jira','Cloud'],
     image: BandoskomarImage,
     liveUrl: 'https://www.bandoskomar.org/en/',
     githubUrl: 'https://github.com/radytrainer/bandoskomar.git',
